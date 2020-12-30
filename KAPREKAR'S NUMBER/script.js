@@ -30,7 +30,7 @@ button.setAttribute("class","button")
 button.setAttribute("type","submit")
 button.setAttribute("id","check")
 button.setAttribute("onclick","check(document.getElementById('value').value)")
-button.innerHTML="Check"
+button.innerHTML="Generate"
 body2.append(button)
 document.body.append(body2)
 
